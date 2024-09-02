@@ -4,4 +4,4 @@ langchain==0.2.3
 langchain-huggingface==0.0.3
 langchain-core==0.2.5
 PyPDF2==3.0.1
-langchain-groq @ file:///home/conda/feedstock_root/build_artifacts/langchain-groq_1722494846379/work
+langchain-groq==0.1.9

@@ -17,7 +17,7 @@ import PyPDF2
 from utils import clean_text, retrieve_relevant_docs, create_rag_chain
 
 # Set up environment variables
-groq_api_key=os.environ['GROQ_API_KEY']
+groq_api_key=st.secrets['GROQ_API_KEY']
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 
